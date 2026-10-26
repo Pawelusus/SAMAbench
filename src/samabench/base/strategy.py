@@ -1,0 +1,1 @@
+"""Startegy base class"""

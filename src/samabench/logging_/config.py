@@ -1,0 +1,1 @@
+"""Logger output configuration"""

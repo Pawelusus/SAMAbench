@@ -1,0 +1,1 @@
+"""Optimizer base class"""
