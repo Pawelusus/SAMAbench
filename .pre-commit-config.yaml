@@ -41,9 +41,9 @@ repos:
         pass_filenames: false
         stages: [pre-push]
 
-      # - id: interrogate
-      #   name: Check docstring coverage
-      #   entry: uv run interrogate src/samabench
-      #   language: system
-      #   pass_filenames: false
-      #   stages: [pre-push]
+      - id: interrogate
+        name: Check docstring coverage
+        entry: uv run interrogate src/samabench
+        language: system
+        pass_filenames: false
+        stages: [pre-push]

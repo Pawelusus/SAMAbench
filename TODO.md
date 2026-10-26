@@ -5,22 +5,44 @@
 - ~~install libraries (and correctly create dependencies)~~
 - ~~setup CI/CD~~
 
+#
+
 - ~~setup code quality tools~~
   - ~~ruff~~
   - ~~mypy~~
   - ~~interrogate~~
+
+#
 
 - ~~setup tests~~
   - ~~pytest~~
   - ~~pytest-cov~~
   - ~~hypotesis~~
 
-- create empty files for implementation
+#
 
+- ~~create empty files for implementation~~
+
+#
+
+- implement base classes
+- implement cli
 - setup logging (just logging from stdlib - logging)
-- setup cli (typer)
-
+- setup auto changelog (or remove changelog.md)
 - double check tools configuration
-- check if added libraries are neccessary
+- double check library architecture
+
+#
+
+- implement rest of code
+- check if added libraries are neccessary -> clean up dependencies
+- add libraries for engineering probles
+
+#
 
 - write docs
+
+#
+
+- add more syntetic problems
+- add more engineering problems
