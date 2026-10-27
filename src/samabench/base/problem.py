@@ -7,6 +7,8 @@ from samabench.base.types import Bounds, FloatArray, SearchSpace, VariableType
 
 
 class Problem(ABC):
+    """Base problem class"""
+
     @abstractmethod
     def evaluate(self, x: FloatArray) -> float:
         """Returns value of function in point x
